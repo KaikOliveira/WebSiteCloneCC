@@ -1,4 +1,4 @@
-section {
+.search {
   width: 100%;
   height: 450px;
   display: flex;
@@ -7,7 +7,7 @@ section {
   background-size: cover;
 }
 
-section .filtroBackground {
+.search .filtroBackground {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   flex: 1;
@@ -158,6 +158,7 @@ section .filtroBackground {
 
 .allServices:hover {
   background: var(--blue);
+  border-color: var(--blue);
 }
 
 .allServices span {
