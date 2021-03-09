@@ -10,6 +10,7 @@
   width: 80%;
   height: 10%;
   margin-top: 0.25%;
+  color: var(--black);
 }
 
 .prefsTV .title strong {

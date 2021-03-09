@@ -1,0 +1,110 @@
+footer {
+  width: 100%;
+  height: 450px;
+  background: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container {
+  width: 80%;
+  height: 93%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .top {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.top .columnLogo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.columnLogo .logo {
+  width: 90%;
+  height: 35%;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.top .columnSaibaMais {
+  width: 15%;
+  height: 100%;
+}
+
+.top .columnTransparencia {
+  width: 20%;
+  height: 100%;
+}
+
+.top .colmunEditais {
+  width: 20%;
+  height: 100%;
+}
+
+.top .columnRedesSociais {
+  width: 30%;
+  height: 100%;
+}
+
+.columnRedesSociais .redesSociais {
+  width: 90%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.titleFooter {
+  margin-top: 10px;
+}
+
+.titleFooter strong {
+  color: var(--white);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.options {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.options span {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 30px;
+}
+
+.container .bottom {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.bottom span {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.bottom span:first-child {
+  margin-left: 15px;
+}
+
+.bottom span:last-child {
+  margin-right: 15px;
+}
