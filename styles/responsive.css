@@ -1,0 +1,163 @@
+@media (max-width: 960px) {
+  header {
+    height: 35px;
+  }
+
+  header>span {
+    font-size: 1.2rem;
+  }
+
+  header nav .buttons {
+    font-size: 1rem;
+  }
+
+  header nav .acessibilidade span {
+    font-size: 0.8rem;
+  }
+
+  header nav .tamarana span {
+    font-size: 0.8rem;
+  }
+
+  header nav .acessoInfos span {
+    font-size: 0.8rem;
+  }
+
+  header nav .secretaria span {
+    font-size: 0.8rem;
+  }
+
+  .searchContainer .allServices span {
+    font-size: 1.2rem;
+  }
+
+  .containerNews {
+    height: 500px;
+  }
+
+  .othersNews span {
+    font-size: 1rem;
+  }
+
+  .othersNews p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    width: 95%;
+  }
+
+  .filtroLastNews p {
+    font-size: 1.8rem;
+  }
+
+  .search {
+    height: 400px;
+  }
+
+  .prefsTV {
+    height: 400px;
+  }
+
+  .prefsTV .content .box .description {
+    font-size: 1.4rem;
+  }
+
+  .banners {
+    height: 200px;
+  }
+
+  footer {
+    height: 300px;
+  }
+
+  footer .columnLogo .logo {
+    height: 30%;
+  }
+
+  footer .titleFooter strong {
+    font-size: 1.4rem;
+  }
+
+  footer .options span {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  footer .columnRedesSociais .redesSociais {
+    height: 65%;
+    width: 80%;
+  }
+
+  footer .container .bottom span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 765px) {
+  header {
+    height: 30px;
+  }
+
+  header>span {
+    font-size: 1rem;
+  }
+
+  header nav .buttons {
+    font-size: 0.8rem;
+  }
+
+  header nav .acessibilidade span {
+    font-size: 0.6rem;
+  }
+
+  header nav .tamarana span {
+    font-size: 0.6rem;
+  }
+
+  header nav .acessoInfos span {
+    font-size: 0.6rem;
+  }
+
+  header nav .secretaria span {
+    font-size: 0.6rem;
+  }
+
+  .search {
+    height: 350px;
+  }
+
+  .search .searchContainer {
+    height: 70%;
+  }
+
+  .search .filtroBackground .heading {
+    height: 10%;
+  }
+
+  .heading .infos>span {
+    font-size: 1.4rem;
+  }
+
+  .heading .infos .boxInfos span {
+    font-size: 1.4rem;
+  }
+
+  .searchContainer>h1 {
+    font-size: 1.8rem;
+  }
+
+  .searchContainer .inputAndButton {
+    height: 35px;
+  }
+
+  .inputAndButton input {
+    height: 35px;
+  }
+
+  .filtroBackground .suggestion span {
+    font-size: 0.8rem;
+  }
+
+  .filtroBackground .allServices {
+    height: 35px;
+  }
+}

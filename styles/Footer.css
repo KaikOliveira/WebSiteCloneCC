@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 450px;
+  height: 400px;
   background: var(--blue);
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ footer .container {
 
 .titleFooter strong {
   color: var(--white);
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-left: 5px;
 }
 
@@ -84,7 +84,8 @@ footer .container {
 
 .options span {
   color: rgba(255, 255, 255, 0.8);
-  line-height: 3.0rem;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
 }
 
 .container .bottom {
