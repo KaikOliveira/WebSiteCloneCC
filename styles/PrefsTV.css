@@ -82,7 +82,7 @@
 .bottom button:after {
   content: '';
   transition: inherit;
-  width: 40%;
+  width: 30%;
   height: 3px;
   background: var(--blue);
   position: absolute;
@@ -96,5 +96,5 @@
 }
 
 .bottom button:hover:after {
-  width: calc(100% + 5px);
+  width: calc(100% + 10px);
 }

@@ -160,3 +160,264 @@
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    height: 30px;
+  }
+
+  header>span {
+    display: none;
+  }
+
+  header nav {
+    width: 100%;
+  }
+
+  header nav .buttons {
+    font-size: 1.1rem;
+  }
+
+  header nav .acessibilidade span {
+    font-size: 0.8rem;
+  }
+
+  header nav .tamarana span {
+    font-size: 0.8rem;
+  }
+
+  header nav .acessoInfos span {
+    font-size: 0.8rem;
+  }
+
+  header nav .secretaria span {
+    font-size: 0.8rem;
+  }
+
+  .search {
+    height: 300px;
+  }
+
+  .search .filtroBackground .heading {
+    height: 15%;
+  }
+
+  .heading .menu-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 55%;
+    margin-left: 20px;
+  }
+
+  .heading .menu-hamburger .one,
+  .two,
+  .three {
+    background-color: var(--white);
+    height: 10%;
+    width: 80%;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+  }
+
+  .heading .infos .boxInfos {
+    display: none;
+  }
+
+  .filtroBackground .searchContainer {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .searchContainer>h1 {
+    margin-right: 0%;
+  }
+
+  .searchContainer .inputAndButton {
+    height: 45px;
+  }
+
+  .inputAndButton input {
+    height: 45px;
+  }
+
+  .filtroBackground .suggestion {
+    display: none;
+  }
+
+  .filtroBackground .allServices {
+    height: 55px;
+    margin-top: 30px;
+  }
+
+  .containerNews .othersNews p {
+    font-size: 1.4rem;
+  }
+
+  .containerNews .othersNews span {
+    font-size: 1.1rem;
+  }
+
+  .containerNews .bottom button {
+    font-size: 1.2rem;
+  }
+
+  .prefsTV {
+    width: 90%;
+    height: 850px;
+    justify-content: space-between;
+  }
+
+  .prefsTV .title {
+    width: 100%;
+    height: 5%;
+    margin-left: 0px;
+  }
+
+  .prefsTV .title strong {
+    font-size: 2.2rem;
+  }
+
+  .prefsTV .title>div {
+    width: 5%;
+  }
+
+  .prefsTV .content {
+    flex-direction: column;
+    width: 100%;
+    height: 91%;
+  }
+
+  .content .box {
+    width: 100%;
+    height: 32%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .box .image {
+    height: 90%;
+  }
+
+  .box .description {
+    height: 10%;
+    font-size: 1.5rem;
+  }
+
+  .prefsTV .bottom {
+    height: 4%;
+    width: 100%;
+  }
+
+  .prefsTV .bottom button {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    height: 850px;
+  }
+
+  footer .container {
+    width: 95%;
+  }
+
+  footer .titleFooter strong {
+    font-size: 1.6rem;
+  }
+
+  footer .options span {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  footer .options {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 5px;
+    margin-right: 0px;
+    flex: 1;
+  }
+
+  footer .container .bottom span {
+    font-size: 1.2rem;
+  }
+
+  footer .container .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .top .columnLogo {
+    width: 80%;
+    height: 15%;
+  }
+
+  footer .top .columnLogo .logo {
+    width: 40%;
+    height: 100%;
+    margin-top: 0px;
+  }
+
+  footer .top .columnSaibaMais {
+    height: 25%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .top .columnTransparencia {
+    height: 17%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .top .colmunEditais {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .top .columnRedesSociais {
+    height: 23%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .top .columnRedesSociais .redesSociais {
+    width: 100%;
+    height: 95%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  footer .container .bottom {
+    flex-direction: column;
+  }
+
+  footer .bottom span:first-child {
+    margin-left: 0;
+  }
+
+  footer .bottom span:last-child {
+    margin-right: 0;
+  }
+
+  footer .container .bottom span {
+    font-size: 1.2rem;
+  }
+}
