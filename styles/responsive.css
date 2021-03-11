@@ -421,3 +421,33 @@
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 426px) {
+  header .tamarana {
+    display: none;
+  }
+
+  header .secretaria {
+    display: none;
+  }
+
+  header .acessibilidade {
+    width: 40%;
+  }
+
+  header .acessoInfos {
+    width: 40%;
+  }
+
+  .search .filtroBackground .allServices {
+    width: 40%;
+  }
+
+  .banners {
+    height: 150px;
+  }
+
+  footer .container .bottom span {
+    text-align: center;
+  }
+}
